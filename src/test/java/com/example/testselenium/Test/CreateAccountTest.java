@@ -20,6 +20,7 @@ public class CreateAccountTest extends LoginTest {
         login("administrator", "Mabes132");
     }
 
+    //@Test is a jUnit annotation that marks a method as a test case.
     @Test
     public void createAccount() throws InterruptedException {
         // Navigate to create account page

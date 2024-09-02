@@ -21,8 +21,7 @@ public class LoginTest {
     protected WebDriver driver;
     protected LoginPage loginPage;
 
-    //@BeforeEach adalah anotasi dari jUnit yang digunakan untuk menandai method dibawahnya
-    // harus dijalankan pertama kali
+    //@BeforeEach is an annotation from jUnit that is used to indicate that the method below must be executed first
     @BeforeEach
     public void setUp() {
         //untuk membuka web browser
@@ -42,7 +41,7 @@ public class LoginTest {
     }
 
 
-    //@AfterEach adalah anotasi jUnit yang menandai method dibawahnya dijalankan terakhir
+    //@AfterEach is a jUnit annotation that marks the method below to be executed last
     @AfterEach
     public void tearDown() {
         driver.quit();
